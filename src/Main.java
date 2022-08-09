@@ -25,9 +25,9 @@ public class Main {
         // Задание 3
         int cometYearAppearance = 0;
         int year = 2022;
-        int TwoHundred = 200;
-        int lastTwoHundredYears = year - TwoHundred;
-        for (int i = 0; cometYearAppearance < 2_100; i++) {
+        int lastTwoHundredYears = year - 200;
+        int end = year + 100;
+        for (int i = 0; cometYearAppearance < end; i++) {
             if (cometYearAppearance >= lastTwoHundredYears) {
                 System.out.println("Комета пролетала над Землей в " + cometYearAppearance);
             }
